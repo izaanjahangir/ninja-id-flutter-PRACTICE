@@ -22,6 +22,7 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text("MCU ID Card"),
         backgroundColor: Colors.grey[850],
+        elevation: 0,
       ),
       body: Container(
         padding: EdgeInsets.symmetric(horizontal: 40),
