@@ -18,12 +18,12 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[900],
       appBar: AppBar(
         title: Text("MCU ID Card"),
-        backgroundColor: Colors.black54,
+        backgroundColor: Colors.grey[850],
       ),
       body: Container(
-        color: Colors.black87,
         padding: EdgeInsets.symmetric(horizontal: 40),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
